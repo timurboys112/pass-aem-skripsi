@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {},
+    "command": "docker build -t pass-aem ."
+  },
+  "start": {
+    "command": "docker run -p 8080:80 pass-aem"
+  }
+}
